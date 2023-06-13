@@ -1,14 +1,4 @@
 #!/bin/bash
-def remove_c(input_string):
+def remove_c_from_input(input_string):
     output_string = input_string.replace('c', '').replace('C', '')
     return output_string
-
-# Prompt the user for input
-user_input = input("Enter a string: ")
-
-# Remove 'c' and 'C' from the input
-result = remove_c(user_input)
-
-# Print the modified string
-print("Modified string:", result)
-
